@@ -41,9 +41,9 @@ var scroll = new SmoothScroll('a[href*="#"]');
 
 // =========================================
 $('#enquiry').on('submit', function(e){
-  // e.preventDefault();
-  alert('submiited')
-})
+  $('.login-popup').hide();
+    $('.container' ).removeClass('blur');
+});
 // ========================================================================================
 
   //Javacript for the scroll indicator bar
